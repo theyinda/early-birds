@@ -42,8 +42,6 @@
             <a href="#">Get in Touch</a>
           </button>
         </li>
-        <!-- <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li> -->
       </ul>
       <a href="javascript:void(0);" class="icon" @click="myFunction">
         <svg
@@ -70,7 +68,7 @@
         <p>{{headerText}}</p>
         <div class="hero-btn">
           <button>
-            <a href="#">Get Early Access</a>
+            <a href="./waitlist">Get Early Access</a>
           </button>
         </div>
       </div>
