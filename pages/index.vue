@@ -2,6 +2,7 @@
   <div class="container">
     <div class="nav-bar">
       <div class="logo">
+        <a href="" >
         <svg
           width="136"
           height="39"
@@ -34,6 +35,7 @@
             fill="#00237B"
           />
         </svg>
+        </a>
       </div>
       <ul id="myLinks" ref="myLinks" class="nav-links">
         <li><a href="#">Instagram</a></li>
@@ -362,7 +364,7 @@ export default {
 div.nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 6rem;
+  padding: 2rem 6rem;
   width: 100%;
   box-shadow: 0px 1px 0px #e5e9f2;
 }
@@ -407,7 +409,7 @@ ul li button a:hover {
 
 div.hero-section {
   padding: 5em;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -421,6 +423,7 @@ div.hero-content h4 {
   font-size: 42px;
   padding-bottom: 16px;
   width: 35.6rem;
+  color: #00237B;
 }
 
 div.hero-content p {
@@ -458,7 +461,7 @@ div.hero-btn button {
 }
 
 div.bands {
-  position: relative;
+  margin :0;
 }
 .two {
   position: absolute;

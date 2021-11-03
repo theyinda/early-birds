@@ -2,6 +2,7 @@
   <div class="container">
     <div class="nav-bar">
       <div class="logo">
+        <a href="/" >
         <svg
           width="136"
           height="39"
@@ -34,6 +35,7 @@
             fill="#00237B"
           />
         </svg>
+        </a>
       </div>
       <ul id="myLinks" ref="myLinks" class="nav-links">
         <li><a href="#">Instagram</a></li>
@@ -996,7 +998,7 @@
         </div>
       </div>
       <div class="hero-form">
-        <iframe
+        <!-- <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSfCAkLM7ivjsYup_GoIxn36DxWC10o-aCoH458tGKgotWm37g/viewform?embedded=true"
           width="640"
           height="700"
@@ -1004,7 +1006,8 @@
           marginheight="0"
           marginwidth="0"
           >Loading…</iframe
-        >
+        > -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpQOyZk4QZgIPQhd8ML-uQ3H7FP1lXtUrRi-5YZUVzvMzeJw/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
     <!-- Footer section -->
@@ -1051,7 +1054,7 @@
         </div>
 
         <div class="social-media">
-          <a href="#">
+          <a href="https://www.instagram.com/ibloov/">
             <svg
               width="14"
               height="14"
@@ -1067,7 +1070,7 @@
               />
             </svg>
           </a>
-          <a href="#">
+          <a href="https://ibloov.com/">
             <svg
               width="14"
               height="14"
@@ -1100,7 +1103,7 @@
               />
             </svg>
           </a>
-          <a href="mailto: info@helloklinic.com">
+          <a href="#">
             <svg
               width="14"
               height="10"
@@ -1153,12 +1156,18 @@ export default {
 </script>
 
 <style scoped>
+.container{
+  width: 100%;
+margin: 0 auto;
+  overflow: hidden;
+  max-height: 969px;
+}
 div.nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 6rem;
+  padding: 2rem 6rem;
   width: 100%;
-  box-shadow: 0px 1px 0px #e5e9f2;
+  /* box-shadow: 0px 1px 0px #e5e9f2; */
 }
 
 div.logo {
@@ -1216,13 +1225,18 @@ div.hero-content h4 {
   width: 562px;
   color: #00237b;
 }
+div.hero-content{
+  /* background: rgba(0, 35, 123, 0.05); */
+  padding: 50px 0;
+  width: 100%;
+}
 
 div.hero-content p {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  color: #00237b;
+  color: 333333;
   width: 540px;
 }
 
@@ -1233,6 +1247,7 @@ div.hero-content p {
 /* FOOTER */
 div.footer {
   background: #00237b;
+  margin: 0;
 }
 
 div.footer-content {
@@ -1267,7 +1282,13 @@ div.social-media a {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 1201px) {
+.container{
+  width: 100%;
+margin: 0 auto;
+  overflow: hidden;
+  max-height: 969px;
+}
 }
 @media only screen and (max-width: 1200px) {
   div.hero-section {
@@ -1394,5 +1415,6 @@ div.social-media a {
   div.hero-form {
     margin-top: 30px;
   }
+
 }
 </style>
