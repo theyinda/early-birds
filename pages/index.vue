@@ -461,6 +461,7 @@ div.hero-btn button {
 }
 
 div.bands {
+  position: relative;
   margin :0;
 }
 .two {
