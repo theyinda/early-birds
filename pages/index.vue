@@ -38,7 +38,7 @@
         </a>
       </div>
       <ul id="myLinks" ref="myLinks" class="nav-links">
-        <li><a href="#">Instagram</a></li>
+        <li><a href="https://www.instagram.com/ibloov/">Instagram</a></li>
         <li>
           <button>
             <a href="#">Get in Touch</a>
