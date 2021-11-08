@@ -376,12 +376,12 @@ div.logo {
 
 ul.nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 ul li {
-  margin: 0 2vw;
+  margin: 0 1.5vw;
   list-style: none;
   font-size: 1.1rem;
 }
