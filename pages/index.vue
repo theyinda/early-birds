@@ -377,11 +377,14 @@ div.logo {
 ul.nav-links {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
   align-items: center;
+   width: 15%;
+   /* margin-left: 60%; */
 }
 
 ul li {
-  margin: 0 1.5vw;
+  /* margin: 0 1.5vw; */
   list-style: none;
   font-size: 1.1rem;
 }

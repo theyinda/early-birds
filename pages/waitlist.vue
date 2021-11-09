@@ -1208,6 +1208,7 @@ div.nav-bar {
   padding: 2rem 6rem;
   width: 100%;
   display: none;
+  background: pink;
 }
 
 div.logo {
@@ -1218,13 +1219,15 @@ div.logo {
 
 ul.nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
+   width: 40%;
+   margin-left: 60%;
 }
 
 ul li {
-  margin: 0 1.5vw;
+  /* margin: 0 1.5vw; */
   list-style: none;
   font-size: 1.1rem;
 }
